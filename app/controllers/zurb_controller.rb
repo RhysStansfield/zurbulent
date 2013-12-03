@@ -1,0 +1,2 @@
+class ZurbController < ApplicationController
+end

@@ -1,0 +1,40 @@
+%ul{ class: 'example-orbit', data: { orbit: true } }
+  %li
+    %img{ src: './assets/i_must_scream.jpg', alt: 'slide 1'}
+    .orbit-caption
+      Squeal like a pig boi.
+  %li
+    %img{ src: './assets/rhysweird.jpg', alt: 'slide 2' }
+    .orbit-caption
+      Bad Boi.
+  %li
+    %div
+      %h2 You wish you wuz this kewarl
+      %h3 Snap doozle the snoozle
+
+%h2
+  Beastin' da tabs
+
+%dl{ class: 'tabs', data: { tab: true } }
+  %dd{ class: 'active' }
+    %a{ href: '#panel2-1' }
+      Tab 1
+  %dd
+    %a{ href: '#panel2-2' }
+      Tab 2
+  %dd
+    %a{ href: '#panel2-3' }
+      Tab 3
+  %dd
+    %a{ href: '#panel2-4' }
+      Tab 4
+
+.tabs-content
+  %div{ class: 'content active', id: 'panel2-1' }
+    %p First panel content goes here...
+  %div{ class: 'content', id: 'panel2-2' }
+    %p Second panel shizzle goes here!
+  %div{ class: 'content', id: 'panel2-3' }
+    %p Third panel sturrrrfffffffffff
+  %div{ class: 'content', id: 'panel2-4' }
+    %p Fourth panel gublabbbbzzzznngrof
