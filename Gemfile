@@ -28,9 +28,12 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+gem 'devise'
 gem 'foundation-rails'
 gem 'simple_form'
 gem 'country_select'
+gem 'omniauth'
+gem 'omniauth-twitter'
 
 group :development, :testing do
   gem 'capybara'

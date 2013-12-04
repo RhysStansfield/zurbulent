@@ -7,6 +7,10 @@ Zurbulent::Application.routes.draw do
   get '/boingulence' => 'home#boingulence'
 
   get '/grid_play' => 'home#grid_play'
+
+  devise_for :users, controllers: {omniauth_callbacks: "omniauth_callbacks"}
+
+  resources :zurbs
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

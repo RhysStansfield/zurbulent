@@ -1,5 +1,5 @@
 require 'spec_helper'
 
-describe ZurbController do
+describe ZurbsController do
 
 end
